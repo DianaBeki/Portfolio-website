@@ -20,7 +20,7 @@ For the first milestone in the process of creating your portfolio website, you w
 
 ## Getting Started
 
-**If you want to this project kindly check the [ GitHub repository](https://github.com/DianaBeki/Hello-microverse)**
+**If you want to this project kindly check the [ GitHub repository](https://github.com/DianaBeki/Portfolio-website)**
 
 ### Prerequisites
 
