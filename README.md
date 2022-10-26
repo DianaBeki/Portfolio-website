@@ -2,7 +2,7 @@
 
 
 
-## Description
+## Portfolio
 > 
 For the first milestone in the process of creating your portfolio website, you will:
 
@@ -16,7 +16,7 @@ For the first milestone in the process of creating your portfolio website, you w
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/DianaBeki/Hello-microverse)
+[Live Demo Link](https://github.com/DianaBeki/Portfolio-website)
 
 ## Getting Started
 
