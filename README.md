@@ -30,7 +30,7 @@ For the first milestone in the process of creating your portfolio website, you w
 ### Setup
 
 ```
-git clone git@github.com:DianaBeki/Hello-microverse.git
+git clone git@github.com:DianaBeki/Portfolio-website.git
 ```
 
 Open a index.html file with your code editor of your choice and/or a browser of your choice.
