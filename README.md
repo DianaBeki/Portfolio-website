@@ -16,7 +16,7 @@ For the first milestone in the process of creating your portfolio website, you w
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/DianaBeki/Portfolio-website)
+[Live Demo Link](https://dianabeki.github.io/Portfolio-website/)
 
 ## Getting Started
 
@@ -44,13 +44,13 @@ Open the project using a live server extension that can be found into your code 
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/DianaBeki)
+- GitHub: [@DianaBeki](https://github.com/DianaBeki)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/DianaBeki/Portfolio-website/issues).
 
 ## Show your support
 
