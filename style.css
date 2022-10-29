@@ -104,22 +104,21 @@ a {
   flex-direction: column;
 }
 
-.heading-2 {
-  color: #172b4d;
-  margin-top: 12px;
+.content-area {
+  display: flex;
+  flex-direction: column;
 }
 
 #title {
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 900;
+  font-size: 40px;
   line-height: 44px;
+  color: #172b4d;
+  margin: 15px 0;
 }
 
 .description {
-  display: flex;
-  gap: 5px;
   align-items: center;
-  margin-top: 10px;
   color: #344563;
 }
 
@@ -160,7 +159,7 @@ a {
 
 .details {
   width: 90%;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .details p {
@@ -168,6 +167,7 @@ a {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  margin: 0;
 }
 
 .languages {
@@ -192,7 +192,7 @@ a {
 }
 
 .project-btn {
-  margin: 50px 16px 40px 16px;
+  margin: 30px 0 28px 0;
   height: 48px;
 }
 
@@ -264,6 +264,17 @@ a {
   align-items: center;
   gap: 20px;
   margin-bottom: 12px;
+}
+
+h4 {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
 }
 
 .skill-list {
