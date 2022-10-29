@@ -266,10 +266,22 @@ a {
   margin-bottom: 12px;
 }
 
-.arrow-icon {
-  width: 8px;
-}
-
 .skill-list {
   padding: 0;
+}
+
+.arrow-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-angle-down {
+  color: #acb7c3;
+  font-size: 1.2rem;
+}
+
+.fa-angle-right {
+  color: #acb7c3;
+  font-size: 1.2rem;
 }
