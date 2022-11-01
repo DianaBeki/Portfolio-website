@@ -24,8 +24,8 @@ For the first milestone in the process of creating your portfolio website, you w
 
 ### Prerequisites
 
--Web Browser
--Code Editor:[visual Studio code](https://code.visualstudio.com/)
+- Web Browser
+- Code Editor:[visual Studio code](https://code.visualstudio.com/)
 
 ### Setup
 
