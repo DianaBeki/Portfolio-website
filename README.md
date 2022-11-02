@@ -4,10 +4,8 @@
 
 ## Portfolio
 > 
-For the first milestone in the process of creating your portfolio website, you will:
+- For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
 
-- set up a new repository and prepare it for development using best practices (e.g. linters).
-- build the first 2 sections of the mobile website using the template you chose in the previous step.
 
 ## Built With
 
@@ -16,11 +14,12 @@ For the first milestone in the process of creating your portfolio website, you w
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/DianaBeki/Portfolio-website)
+[Live Demo Link](https://dianabeki.github.io/Portfolio-website/)
 
 ## Getting Started
 
 **If you want to this project kindly check the [ GitHub repository](https://github.com/DianaBeki/Portfolio-website)**
+
 
 ### Prerequisites
 
@@ -43,13 +42,13 @@ Open the project using a live server extension that can be found into your code 
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/DianaBeki)
+- GitHub: [@DianaBeki](https://github.com/DianaBeki)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/DianaBeki/Portfolio-website/issues).
 
 ## Show your support
 
