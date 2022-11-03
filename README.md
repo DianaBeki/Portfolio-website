@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-
-
 ## Portfolio
-> 
-- For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
 
+>
+
+- For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
 
 ## Built With
 
@@ -20,11 +19,10 @@
 
 **If you want to this project kindly check the [ GitHub repository](https://github.com/DianaBeki/Portfolio-website)**
 
-
 ### Prerequisites
 
--Web Browser
--Code Editor:[visual Studio code](https://code.visualstudio.com/)
+- Web Browser
+- Code Editor:[visual Studio code](https://code.visualstudio.com/)
 
 ### Setup
 
@@ -46,9 +44,20 @@ Open the project using a live server extension that can be found into your code 
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+👤 **Prantosh Biswas**
+
+- GitHub: [@PrantoshB](https://github.com/PrantoshB)
+- Twitter: [@prantalks](https://twitter.com/prantalks)
+- LinkedIn: [Prantosh Biswas](https://linkedin.com/in/prantosh)
+- Instagram: [@prantalks](https://instagram.com/prantalks)
 
 Feel free to check the [issues page](https://github.com/DianaBeki/Portfolio-website/issues).
+
+👤 **Leehaney George**
+
+- GitHub: [@githubhandle](https://github.com/leehaney254)
+- Twitter: [@twitterhandle](https://twitter.com/Lee06785586)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leehaney-george-0a4a51178/)
 
 ## Show your support
 
