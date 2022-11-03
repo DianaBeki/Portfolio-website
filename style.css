@@ -303,7 +303,7 @@ h4 {
 }
 
 .footer {
-  background: url(./images/contactformbackgroundshapes@2x.png), #6070FF; 
+  background: url(./images/contactformbackgroundshapes@2x.png), #6070ff;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-top-left-radius: 5rem;
@@ -317,24 +317,24 @@ h4 {
 }
 
 .title {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #FFFFFF;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
 }
 
 .paragraph-1 {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-width: 327px;
-height: 102px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  width: 327px;
+  height: 102px;
 }
 
 .footer-list {
@@ -348,17 +348,17 @@ height: 102px;
 }
 
 .u-name {
-    background: #fff;
-    height: 48px;
-    margin: 0 16px;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    padding: 0 24px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 21px;
-    color: #172b4d;
-    width: 80%;
+  background: #fff;
+  height: 48px;
+  margin: 0 16px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172b4d;
+  width: 80%;
 }
 
 .u-email {
