@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 .body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -36,7 +36,7 @@ a {
 }
 
 .main-section {
-  background-image: url(./images/mobile-background-img.png);
+  background-image: url(/Images/mobile-background-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -193,6 +193,7 @@ a {
 
 .project-btn {
   margin: 30px 0 28px 0;
+  height: 48px;
 }
 
 .btn {
@@ -201,25 +202,19 @@ a {
   height: 48px;
   outline: none;
   background-color: white;
-  color: #396df2;
+  color: #396df2d5;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
   padding: 12px;
-  transition: all 0.5s ease-out;
 }
 
 .btn:hover {
   background-color: #6070ffb1;
+  background-position: left top;
   color: #fff;
-}
-
-.btn a {
-  color: #396df2;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 17px;
+  transition: all 0.5s ease-out;
 }
 
 .bio {
@@ -272,7 +267,7 @@ a {
 }
 
 h4 {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -300,94 +295,4 @@ h4 {
 .fa-angle-right {
   color: #acb7c3;
   font-size: 1.2rem;
-}
-
-.footer {
-  background: url(./images/contactformbackgroundshapes@2x.png), #6070ff;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  border-top-left-radius: 5rem;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.title {
-  font-family: "Poppins", serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-}
-
-.paragraph-1 {
-  font-family: "Poppins", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  width: 327px;
-  height: 102px;
-}
-
-.footer-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin: 50px 16px;
-}
-
-.u-name {
-  background: #fff;
-  height: 48px;
-  margin: 0 16px;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  padding: 0 24px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 21px;
-  color: #172b4d;
-  width: 80%;
-}
-
-.u-email {
-  background: #fff;
-  height: 48px;
-  margin: 0 16px;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  padding: 0 24px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 21px;
-  color: #172b4d;
-  width: 80%;
-}
-
-textarea {
-  width: 80%;
-  height: 112px;
-  padding: 0 24px;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  margin: 0 16px;
-  font-family: "Poppins", serif;
-  outline: none;
-}
-
-.li-item {
-  justify-self: flex-start;
-  align-self: flex-start;
-  margin-left: 16px;
 }
