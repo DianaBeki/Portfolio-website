@@ -207,12 +207,6 @@ a {
   line-height: 24px;
   cursor: pointer;
   padding: 12px;
-  transition: all 0.5s ease-out;
-}
-
-.btn:hover {
-  background-color: #6070ffb1;
-  color: #fff;
 }
 
 .btn a {
