@@ -209,6 +209,11 @@ a {
   padding: 12px;
 }
 
+.btn:hover {
+  background-color: #6070ffb1;
+  color: #fff;
+}
+
 .btn a {
   color: #396df2;
   cursor: pointer;
