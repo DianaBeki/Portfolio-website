@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-.body {
+body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -327,8 +327,14 @@ h4 {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  width: 327px;
-  height: 102px;
+}
+
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 16px;
 }
 
 .footer-list {
@@ -338,19 +344,18 @@ h4 {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin: 50px 16px;
+  padding: 0;
 }
 
 .u-name {
   background: #fff;
   height: 48px;
-  margin: 0 16px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 17px;
   color: #172b4d;
   width: 80%;
 }
@@ -358,13 +363,12 @@ h4 {
 .u-email {
   background: #fff;
   height: 48px;
-  margin: 0 16px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 17px;
   color: #172b4d;
   width: 80%;
 }
@@ -375,9 +379,9 @@ textarea {
   padding: 0 24px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin: 0 16px;
   font-family: "Poppins", serif;
   outline: none;
+  font-size: 17px;
 }
 
 .li-item {
