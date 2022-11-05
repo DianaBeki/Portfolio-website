@@ -297,9 +297,10 @@ h4 {
 }
 
 .footer {
-  background: url(./images/form-img.png), url(./images/contact-img.png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 100% 100%;
+  background-image: url(./images/contact-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 779px;
 }
 
 .form {
@@ -316,6 +317,7 @@ h4 {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
+  margin-top: 80px;
 }
 
 .paragraph-1 {
@@ -326,6 +328,8 @@ h4 {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+  margin: 20px;
+  margin-top: -15px;
 }
 
 #footer-container {
@@ -354,8 +358,8 @@ h4 {
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 17px;
-  color: #172b4d;
+  font-size: 20px;
+  color: #172B4D;
   width: 80%;
 }
 
@@ -367,7 +371,7 @@ h4 {
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
   color: #172b4d;
   width: 80%;
 }
@@ -381,9 +385,16 @@ textarea {
   font-family: "Poppins", serif;
   outline: none;
   font-size: 17px;
+  height: 170px;
+  color: #B3BAC5;
 }
 
 .li-item {
   justify-self: flex-start;
   align-self: flex-start;
+}
+
+.btn.btn-1 {
+  margin-top: 1rem;
+  padding: 9px 20px;
 }
