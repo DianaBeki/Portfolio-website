@@ -206,7 +206,13 @@ a {
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
-  padding: 1.2rem;
+  padding: 12px;
+  transition: all 0.5s ease-out;
+}
+
+.btn:hover {
+  background-color: #6070ffb1;
+  color: #fff;
 }
 
 .btn a {
@@ -378,7 +384,6 @@ h4 {
 
 textarea {
   width: 80%;
-  height: 112px;
   padding: 0 24px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
