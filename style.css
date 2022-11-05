@@ -297,10 +297,9 @@ h4 {
 }
 
 .footer {
-  background: url(./images/form-img.png), #6070ff;
-  background-repeat: no-repeat;
+  background: url(./images/form-img.png), url(./images/contact-img.png);
+  background-repeat: no-repeat, no-repeat;
   background-size: 100% 100%;
-  border-top-left-radius: 5rem;
 }
 
 .form {
