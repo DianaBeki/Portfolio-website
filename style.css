@@ -206,7 +206,7 @@ a {
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
-  padding: 12px;
+  padding: 1.2rem;
 }
 
 .btn a {
@@ -297,7 +297,7 @@ h4 {
 }
 
 .footer {
-  background: url(./images/contactformbackgroundshapes@2x.png), #6070ff;
+  background: url(./images/form-img.png), #6070ff;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-top-left-radius: 5rem;
@@ -387,5 +387,4 @@ textarea {
 .li-item {
   justify-self: flex-start;
   align-self: flex-start;
-  margin-left: 16px;
 }
