@@ -305,8 +305,9 @@ h4 {
 .footer {
   background-image: url(./images/contact-img.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 779px;
+  background-size: 99% 95%;
+  height: 770px;
+}
 }
 
 .form {
@@ -345,9 +346,6 @@ h4 {
   justify-content: center;
   margin: 0 16px;
   min-height: 100vh;
-  background-image: url(./images/Ellipse\ 5.png), url(./images/Rectangle\ 7.png);
-  background-repeat: no-repeat;
-  background-position: 70% 98%, 79% 98%;
 }
 
 .footer-list {
