@@ -399,7 +399,11 @@ textarea {
 .li-item {
   align-self: flex-start;
   margin-left: -25px;
+}
 
+.btn.btn-1 {
+  margin-top: -3px;
+  padding: 9px 20px;
 }
 
 
