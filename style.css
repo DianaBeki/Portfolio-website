@@ -323,7 +323,7 @@ h4 {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .paragraph-1 {
@@ -335,7 +335,7 @@ h4 {
   text-align: center;
   color: #ebebff;
   margin: 20px;
-  margin-top: -15px;
+  margin-top: -20px;
 }
 
 #footer-container {
@@ -344,9 +344,11 @@ h4 {
   align-items: center;
   justify-content: center;
   margin: 0 16px;
+  min-height: 100vh;
 }
 
 .footer-list {
+  width: 250px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -366,7 +368,7 @@ h4 {
   font-weight: 400;
   font-size: 20px;
   color: #172b4d;
-  width: 80%;
+  width:  100%;
 }
 
 .u-email {
@@ -379,11 +381,11 @@ h4 {
   font-weight: 400;
   font-size: 20px;
   color: #172b4d;
-  width: 80%;
+  width: 100%;
 }
 
 textarea {
-  width: 80%;
+  width: 100%;
   padding: 0 24px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -395,11 +397,9 @@ textarea {
 }
 
 .li-item {
-  justify-self: flex-start;
   align-self: flex-start;
+  margin-left: -25px;
+
 }
 
-.btn.btn-1 {
-  margin-top: 1rem;
-  padding: 9px 20px;
-}
+
