@@ -345,6 +345,9 @@ h4 {
   justify-content: center;
   margin: 0 16px;
   min-height: 100vh;
+  background-image: url(./images/Ellipse\ 5.png), url(./images/Rectangle\ 7.png);
+  background-repeat: no-repeat;
+  background-position: 70% 98%, 79% 98%;
 }
 
 .footer-list {
@@ -368,7 +371,7 @@ h4 {
   font-weight: 400;
   font-size: 20px;
   color: #172b4d;
-  width:  100%;
+  width: 100%;
 }
 
 .u-email {
@@ -405,5 +408,3 @@ textarea {
   margin-top: -3px;
   padding: 9px 20px;
 }
-
-
