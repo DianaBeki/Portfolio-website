@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-.body {
+body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -303,10 +303,10 @@ h4 {
 }
 
 .footer {
-  background: url(./images/contactformbackgroundshapes@2x.png), #6070ff;
+  background-image: url(./images/contact-img.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  border-top-left-radius: 5rem;
+  background-size: 99% 94%;
+  height: 770px;
 }
 
 .form {
@@ -323,6 +323,7 @@ h4 {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
+  margin-top: 70px;
 }
 
 .paragraph-1 {
@@ -333,61 +334,74 @@ h4 {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  width: 327px;
-  height: 102px;
+  margin: 20px;
+  margin-top: -20px;
+}
+
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 16px;
+  min-height: 100vh;
 }
 
 .footer-list {
+  width: 250px;
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin: 50px 16px;
+  padding: 0;
 }
 
 .u-name {
   background: #fff;
   height: 48px;
-  margin: 0 16px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 20px;
   color: #172b4d;
-  width: 80%;
+  width: 100%;
 }
 
 .u-email {
   background: #fff;
   height: 48px;
-  margin: 0 16px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 20px;
   color: #172b4d;
-  width: 80%;
+  width: 100%;
 }
 
 textarea {
-  width: 80%;
-  height: 112px;
+  width: 100%;
   padding: 0 24px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin: 0 16px;
   font-family: "Poppins", serif;
   outline: none;
+  font-size: 17px;
+  height: 170px;
+  color: #b3bac5;
 }
 
 .li-item {
-  justify-self: flex-start;
   align-self: flex-start;
-  margin-left: 16px;
+  margin-left: -25px;
+}
+
+.btn.btn-1 {
+  margin-top: -3px;
+  padding: 9px 20px;
 }
