@@ -79,7 +79,7 @@ a:link { text-decoration: none; }
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d;
+  color: #091e42;
   flex-grow: 0;
   margin-top: 70px;
   margin-right: 20px;
@@ -630,7 +630,7 @@ a:link { text-decoration: none; }
   }
 
   #title3 {
-    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -755,7 +755,7 @@ a:link { text-decoration: none; }
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #172b4d;
+    color: #091e42;
     flex-grow: 0;
     margin-top: 0;
     margin-left: 4%;
