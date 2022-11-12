@@ -297,13 +297,6 @@ a:link { text-decoration: none; }
   line-height: 24px;
   color: #396df2;
   cursor: pointer;
-  padding: 12px;
-  transition: all 0.5s ease-out;
-}
-
-.btn:hover {
-  background-color: #6070ffb1;
-  color: #fff;
 }
 
 .see-project:hover {
@@ -441,12 +434,10 @@ a:link { text-decoration: none; }
 
 #arrow-top {
   border-bottom: 1px solid #dfe1e6;
+}
 
-.footer {
-  background-image: url(./images/contact-img.png);
-  background-repeat: no-repeat;
-  background-size: 99% 94%;
-  height: 770px;
+#footer {
+  background: white;
 }
 
 .flex {
@@ -473,8 +464,8 @@ a:link { text-decoration: none; }
   color: #fff;
   text-align: center;
   margin-top: 0;
-  }
-  
+}
+
 .flex p {
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
@@ -493,15 +484,6 @@ a:link { text-decoration: none; }
 }
 
 .flex form ul {
-  align-items: center;
-  justify-content: center;
-  margin: 0 16px;
-  min-height: 100vh;
-}
-
-.footer-list {
-  width: 250px;
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -545,15 +527,6 @@ a:link { text-decoration: none; }
   border-style: solid;
   border-width: 1px;
   border-color: #6070ff;
-  font-size: 20px;
-  color: #172b4d;
-  width: 100%;
-}
-
-textarea {
-  width: 100%;
-  padding: 0 24px;
-  border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
@@ -1033,14 +1006,5 @@ textarea {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-}
-
-.li-item {
-  align-self: flex-start;
-  margin-left: -25px;
-}
-
-.btn.btn-1 {
-  margin-top: -3px;
-  padding: 9px 20px;
+  }
 }
