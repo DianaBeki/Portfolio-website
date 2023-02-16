@@ -112,12 +112,11 @@ li {
 
 .social-icons {
   margin-left: 1.8rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.7rem;
   transition: all 0.2s ease-in-out;
 }
 
 .social-icons:hover {
   transform: scale(1.1);
 }
-
