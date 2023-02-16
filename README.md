@@ -1,60 +1,184 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile first
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-## Description
-> For the first milestone in the process of creating your portfolio website, you will:
+Modify this file to match your project and remove sections that don't apply.
 
-- Set up a new repository and prepare it for development using best practices (e.g. linters).
-- Build the first 2 sections of the mobile website using the template you chose in the previous step.
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Portfolio-website\] ](#-portfolio-website-)
+  - [🛠 Built With Html and css](#-built-with-html-and-css)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Portfolio-website] <a href="https://github.com/DianaBeki/Portfolio-website"></a>
+
+  Portfolio: Set up header section for mobile version.
+   - Created index.html file and added header to style using CSS.
+
+## 🛠 Built With <a name="built-with">Html and css</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Html</summary>
+  <ul>
+    <li><a href="https://html.org/">Html</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>CSS</summary>
+  <ul>
+    <li><a href="https://www.CSS.org/">CSS</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
 
 
-## Built With
+- **[add header tag]**
 
-- HTML
-- CSS
+- **[add style to header tag element and backgroung image]**
 
-## Live Demo (if available)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Live Demo Link](https://github.com/DianaBeki/Portfolio-website)
+<!-- GETTING STARTED -->
 
-## Getting Started
+## 💻 Getting Started <a name="getting-started"></a>
 
-**If you want to this project kindly check the [ GitHub repository](https://github.com/DianaBeki/Portfolio-website)**
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
--Web Browser
--Code Editor:[visual Studio code](https://code.visualstudio.com/)
+In order to run this project you need:
+
+
+```sh
+ npm install
+```
+
 
 ### Setup
 
-```
-git clone git@github.com:DianaBeki/Portfolio-website.git
-```
+Clone this repository to your desired folder:
 
-Open a index.html file with your code editor of your choice and/or a browser of your choice.
 
+```sh
+  cd my-folder
+  git clone git@github.com:DianaBeki/Portfolio-website.git
 ```
-Open the project using a live server extension that can be found into your code editor.
+-
+
+### Install
+
+Install this project with:
+
+
+```sh
+  cd Portfolio-website
+  npm install
 ```
+-
 
-## Authors
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Author**
+<!-- AUTHORS -->
+
+## 👥 Author <a name="Diana Beki"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Diana Beki**
 
 - GitHub: [@githubhandle](https://github.com/DianaBeki)
+- Twitter: [@twitterhandle](https://twitter.com/home)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
 
-## 🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [] Add more content in the page
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/DianaBeki/Portfolio-website/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## 📝 License
+## ⭐️ Show your support <a name="support"></a>
 
-This project is [MIT](MIT.md) licensed.
+If you like this project give it a star ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank Microverse for the project idea.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
