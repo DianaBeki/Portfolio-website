@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-website
+# Portfolio: setup and mobile first
 
 ## Description
 > For the first milestone in the process of creating your portfolio website, you will:
