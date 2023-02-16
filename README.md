@@ -80,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[add header tag]**
 
-- **[add style to header tag element and backgroung image]**
+- **[add style to header tag element and background image]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
