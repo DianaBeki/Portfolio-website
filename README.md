@@ -50,8 +50,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-website] <a href="https://github.com/DianaBeki/Portfolio-website"></a>
 
-  Portfolio: Set up header section for mobile version.
-   - Created index.html file and added header to style using CSS.
+  Portfolio: finish mobile version
+  - Built middle section of the mobile version to include work and about section in my Index.html
 
 ## 🛠 Built With <a name="built-with">Html and css</a>
 
@@ -78,9 +78,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[add header tag]**
+- **[add main tag element]**
 
-- **[add style to header tag element and background image]**
+- **[add div tag with class attribute to main tag to style]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
