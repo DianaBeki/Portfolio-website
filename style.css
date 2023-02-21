@@ -290,13 +290,13 @@ p {
 }
 
 .btn-resume:hover {
-  background-color: #6070ff;
+  background-color: #2230d2;
   color: white;
   cursor: pointer;
 }
 
 .btn-resume:active {
-  background: #2230d2;
+  background: #6070ff;
   color: #fff;
 }
 
@@ -365,78 +365,79 @@ hr {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  margin-top: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 80px;
 }
 
 .about-me {
-  margin-top: 70px;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  margin-left: 10px;
+  padding: 70px 0;
+  margin-left: 45px;
+  margin-top: 40px;
 }
 
 .heading1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  color: #fff;
+  margin-left: 20px;
 }
 
 .para-1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 94%;
+  margin-left: -10px;
+  line-height: 28px;
+  color: #ebebff;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: -40px;
 }
 
-#input {
-  width: 100%;
-  padding: 10px 12px;
-  outline: none;
-  border: none;
+.input {
   background: #fff;
-  margin: 10px 0;
-  border-radius: 5px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  max-width: 80%;
+  margin: 10px auto;
+  padding: 12px 20px;
+}
+
+.text {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+textarea {
+  font-family: 'Poppins', sans-serif;
+  max-width: 80%;
+  margin: 10px auto;
+  padding: 12px 10px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  border-radius: 5px;
 }
 
 #message {
-  width: 100%;
-  padding: 10px 12px;
-  outline: none;
-  border: none;
-  background: #fff;
-  margin: 10px 0;
-  border-radius: 5px;
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #b3bac5;
 }
 
-.btn-1 {
-  padding: 12px 16px;
-  color: #6070ff;
-  background: #fff;
-  width: 150px;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 5px;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.btn-1:hover {
-  background-color: #7e7ed6;
-  color: white;
-}
-
-.btn-1:active {
-  background-color: #2230d2;
-  color: white;
+.btn1 {
+  margin-left: 34px;
+  text-align: center;
 }
