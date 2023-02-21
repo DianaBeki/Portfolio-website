@@ -378,10 +378,11 @@ hr {
 }
 
 .heading1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 35px;
-  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .para-1 {
