@@ -50,8 +50,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-website] <a href="https://github.com/DianaBeki/Portfolio-website"></a>
 
-  Portfolio: finish mobile version
-  - Built middle section of the mobile version to include work and about section in my Index.html
+  Portfolio: add a contact form
+  - Add contact form in my index.html file and portfolio of my coding partners to contribute.
 
 ## 🛠 Built With <a name="built-with">Html and css</a>
 
@@ -78,9 +78,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[add main tag element]**
+- **[add form element]**
 
-- **[add div tag with class attribute to main tag to style]**
+- **[add input element with a class attribute to style in css]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,6 +131,8 @@ Install this project with:
 > Mention all of the collaborators of this project.
 
 👤 **Diana Beki**
+👤 **Tshepo45**
+👤 **citec-47**
 
 - GitHub: [@githubhandle](https://github.com/DianaBeki)
 - Twitter: [@twitterhandle](https://twitter.com/home)
