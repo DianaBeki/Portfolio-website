@@ -290,13 +290,13 @@ p {
 }
 
 .btn-resume:hover {
-  background-color: #6070ff;
+  background-color: #2230d2;
   color: white;
   cursor: pointer;
 }
 
 .btn-resume:active {
-  background: #2230d2;
+  background: #6070ff;
   color: #fff;
 }
 
