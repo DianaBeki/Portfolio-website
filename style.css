@@ -390,26 +390,27 @@ hr {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  max-width: 94%;
-  margin-left: -10px;
+  font-size: 18px;
   line-height: 28px;
   color: #ebebff;
+  text-align: center;
+  padding-top: 8px;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  gap: 2.5rem;
   margin-top: -40px;
+  margin: 10px auto;
 }
 
 .input {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  max-width: 80%;
-  margin: 10px auto;
   padding: 12px 20px;
+  width: 327px;
 }
 
 .text {
@@ -423,8 +424,7 @@ form {
 
 textarea {
   font-family: 'Poppins', sans-serif;
-  max-width: 80%;
-  margin: 10px auto;
+  width: 327px;
   padding: 12px 10px;
   border: 1px solid #cfd8dc;
   background: #fff;
@@ -437,7 +437,26 @@ textarea {
   color: #b3bac5;
 }
 
-.btn1 {
-  margin-left: 34px;
-  text-align: center;
+.form-btn {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid rgba(0, 0, 255, 0.7);
+  width: 142px;
+  color: #6070ff;
+  /*margin-left: 22px;*/
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 12px 1px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
+
+.form-btn:hover {
+  background-color: #6070ff;
+  color: white;
+  border: 1px solid #fff;
+}
+
