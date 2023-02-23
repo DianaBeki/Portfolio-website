@@ -27,7 +27,7 @@ body {
   font-weight: 700;
 }
 
-.header-section {
+ .header-section {
   display: flex;
   flex-direction: column;
   padding-bottom: 4rem;
@@ -38,7 +38,7 @@ body {
   background-position: top 8rem right 0;
 }
 
-nav {
+ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,7 +134,7 @@ li {
   transform: scale(1.1);
 }
 
-.card-container {
+ .card-container {
   display: grid;
   flex-direction: column;
   gap: 40px;
@@ -458,4 +458,21 @@ textarea {
   background-color: #6070ff;
   color: white;
   border: 1px solid #fff;
+}
+
+@media only screen and(min-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #list-items {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
