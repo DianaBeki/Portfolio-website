@@ -27,18 +27,18 @@ body {
   font-weight: 700;
 }
 
- .header-section {
+.header-section {
   display: flex;
   flex-direction: column;
   padding-bottom: 4rem;
   border-bottom-left-radius: 80px;
   background-image: url(./images/mobile-background-img.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top 8rem right 0;
 }
 
- nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,7 +134,7 @@ li {
   transform: scale(1.1);
 }
 
- .card-container {
+.card-container {
   display: grid;
   flex-direction: column;
   gap: 40px;
@@ -353,7 +353,7 @@ p {
   justify-content: space-between;
 }
 
- hr {
+hr {
   color: rgba(128, 128, 128, 0.1);
   max-width: 95%;
   margin-top: 20px;
@@ -404,7 +404,7 @@ form {
   margin: 10px auto;
 }
 
- .input {
+.input {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -445,8 +445,6 @@ textarea {
   border: 1px solid rgba(0, 0, 255, 0.7);
   width: 142px;
   color: #6070ff;
-
-  /* margin-left: 22px; */
   margin-top: 8px;
   border-radius: 8px;
   padding: 12px 1px;
