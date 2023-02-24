@@ -7,7 +7,6 @@
   line-height: 1;
   letter-spacing: 1.2;
 }
-
 a,
 a:hover,
 a:focus,
@@ -15,15 +14,12 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
-
-
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   background: #e5e5e538;
 }
-
 .header-section {
   display: flex;
   flex-direction: column;
@@ -32,17 +28,16 @@ body {
   background-image: url(./images/mobile-background-img.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top 8rem right 0;
+  background-position: 100% 100%;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margin-top: 2rem;
+  padding-top: 2rem;
+  /* margin-top: 2rem; */
 }
-
 .logo {
   width: 7.6rem;
   height: 2rem;
@@ -52,17 +47,14 @@ nav {
   line-height: 2rem;
   text-decoration: none;
 }
-
 ul {
   display: flex;
   gap: 3rem;
   list-style: none;
 }
-
 #list-items {
   display: none;
 }
-
 li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -72,11 +64,9 @@ li {
   color: #344563;
   text-decoration: none;
 }
-
 .bio {
   margin: 8rem auto 20rem;
 }
-
 .heading {
   max-width: 80vw;
   max-height: 70vh;
@@ -87,8 +77,15 @@ li {
   line-height: 52px;
   color: #172b4d;
   margin: 0 10px;
+  transition-duration: transform all 4s cubic-bezier(.57,.64,1,.01);
 }
 
+.heading:hover {
+  color: indigo;
+  transform: scaleX(1.1) translate(70px);
+  font-style: italic;
+  font-size: 35px;
+}
 .paragraph {
   max-width: 100vw;
   max-height: 60vh;
@@ -100,7 +97,6 @@ li {
   color: #344563;
   margin: 0 10px;
 }
-
 .heading-3 {
   max-width: 100vw;
   max-height: 100vh;
@@ -113,30 +109,25 @@ li {
   line-height: 24px;
   margin: 0 10px;
 }
-
 .icons {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-left: 10px;
 }
-
 .social-icons {
   margin-top: 20px;
   margin-bottom: 17px;
   transition: all 0.2s ease-in-out;
 }
-
 .social-icons:hover {
   transform: scale(1.1);
 }
-
 .card-container {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-
 .work-section {
   display: flex;
   flex-direction: column;
@@ -148,14 +139,12 @@ li {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
-
 .cards {
   display: block;
   width: 295px;
   height: 220px;
   border-radius: 8px;
 }
-
 .heading-2 {
   max-width: 100vw;
   max-height: 100vh;
@@ -166,17 +155,14 @@ li {
   font-size: 32px;
   line-height: 44px;
 }
-
 .specify {
   display: flex;
   gap: 10px;
 }
-
 .dot {
   width: 1rem;
   height: 1rem;
 }
-
 .card-text-1 {
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
@@ -186,7 +172,6 @@ li {
   line-height: 16px;
   color: #344563;
 }
-
 .card-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -195,7 +180,6 @@ li {
   line-height: 16px;
   color: #7a869a;
 }
-
 p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -206,7 +190,6 @@ p {
   max-width: 80vw;
   max-height: 80vh;
 }
-
 .lang {
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
@@ -217,7 +200,6 @@ p {
   border-radius: 8px;
   padding: 4px 12px 4px 12px;
 }
-
 .btn {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -233,20 +215,17 @@ p {
   width: 120px;
   transition: all 0.2s ease-in-out;
 }
-
 .btn:hover {
   background-color: #6070ff;
   color: white;
   cursor: pointer;
 }
-
 .about {
   background-color: #fff;
   border-top-right-radius: 80px;
   margin-top: 50px;
   padding: 40px 10px;
 }
-
 .title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -258,7 +237,6 @@ p {
   max-height: 40vh;
   margin-left: 10px;
 }
-
 .paragraph1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -270,7 +248,6 @@ p {
   color: #344563;
   margin: 0 10px;
 }
-
 .btn-resume {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -285,33 +262,27 @@ p {
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 255, 0.7);
 }
-
 .btn-resume:hover {
   background-color: #2230d2;
   color: white;
   cursor: pointer;
 }
-
 .btn-resume:active {
   background: #6070ff;
   color: #fff;
 }
-
 .btn:active {
   background: #2230d2;
   color: #fff;
 }
-
 .arrows {
   margin-top: 50px;
 }
-
 #languages {
   display: flex;
   justify-content: space-between;
   margin: 0 10px;
 }
-
 #heading-2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -320,19 +291,16 @@ p {
   line-height: 24px;
   color: #000;
 }
-
 .fa {
   font-size: 20px;
   color: #acb7c3;
   margin-right: 80px;
 }
-
 .language {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
-
 .languages-content {
   display: flex;
   align-items: center;
@@ -343,19 +311,16 @@ p {
   width: 303px;
   height: 66.72px;
 }
-
 #arrow-box,
 #arrow-top {
   display: flex;
   justify-content: space-between;
 }
-
 hr {
   color: rgba(128, 128, 128, 0.1);
   max-width: 95%;
   margin-top: 20px;
 }
-
 .form {
   background-image: url(./images/contact-img.png);
   background-repeat: no-repeat;
@@ -366,13 +331,11 @@ hr {
   margin-top: 30px;
   padding-bottom: 30px;
 }
-
 .about-me {
   padding: 70px 0;
   margin-left: 45px;
   margin-top: 40px;
 }
-
 .heading1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -382,7 +345,6 @@ hr {
   color: #fff;
   margin-left: 20px;
 }
-
 .para-1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -393,14 +355,12 @@ hr {
   text-align: center;
   padding-top: 8px;
 }
-
 form {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
   margin: 10px auto;
 }
-
 .input {
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -408,7 +368,6 @@ form {
   padding: 12px 20px;
   width: 327px;
 }
-
 .text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -417,7 +376,6 @@ form {
   line-height: 20px;
   color: #172b4d;
 }
-
 textarea {
   font-family: 'Poppins', sans-serif;
   width: 327px;
@@ -426,13 +384,11 @@ textarea {
   background: #fff;
   border-radius: 5px;
 }
-
 #message {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #b3bac5;
 }
-
 .form-btn {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -448,43 +404,39 @@ textarea {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-
 .form-btn:hover {
   background-color: #6070ff;
   color: white;
   border: 1px solid #fff;
 }
-
 @media only screen and (min-width: 768px) {
  
-
   #union {
     display: none;
   }
-
   #list-items {
     display: flex;
     gap: 3rem;
     list-style: none;
   }
-
-
+.landing-page {
+  background-color: #fff;
+  border-bottom-left-radius: 10rem;
+  margin-bottom: 6rem;
+  /* height: 100vh; */
+}
   .header-section {
     display: flex;
     flex-direction: column;
-    background-image: url(./images/desktop-background.png), #fff;
+    background: url(./images/desktop-background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
-    margin-bottom: 6rem;
-    border-bottom-left-radius: 20rem;
+    background-position: 100% 100%;
   }
-
   .bio {
     padding: 0;
     width: 80%;
   }
-
   .paragraph {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -492,12 +444,10 @@ textarea {
   font-size: 20px;
   line-height: 28px;
   }
-
   .work-section {
    flex-direction: row; 
    gap: 2rem;
   }
-
   .work-section > * {
     flex: 1;
   }
@@ -507,49 +457,40 @@ textarea {
     flex-direction: column;
     gap: 2rem;
   }
-
   .reverse {
     flex-direction: row-reverse;
   }
-
   .see-btn {
     margin-bottom: 4rem;
   }
-
   .cards {
     width: 544px;
     height: 448px;
   }
-
   .about {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 29rem;
   }
-
   .about-myself > * {
     flex: 1;
   }
-
   .about-myself {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 80%;
   }
-
   .about-left {
   display: flex;
   flex-direction: column;
   gap: 20px;
   }
-
   .language {
     flex-direction: row;
     gap: 5px;
   }
-
   .languages-content {
     display: flex;
     flex-direction: column;
@@ -559,7 +500,6 @@ textarea {
     padding-right: 2rem;
     align-items: flex-start;
   }
-
 .about-me {
   text-align: center;
   display: flex;
@@ -567,34 +507,28 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-
 .para-1 {
   width: 50%;
   text-align: center;
   font-size: 20px;
 }
-
 .input,
 textarea {
 width: 100%;
 }
-
   .form {
     margin-top: -15rem;
     align-items: center;
   }
-
   .form form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .heading1 {
     margin-top: 3rem;
     margin-left: 0;
   }
-
 }
  
