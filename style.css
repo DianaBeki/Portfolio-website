@@ -16,15 +16,11 @@ a:active {
   color: inherit;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
-  background: #e5e5e562;
   font-size: 1.2rem;
   font-weight: 700;
+  background: #e5e5e538;
 }
 
 .header-section {
@@ -35,7 +31,7 @@ body {
   background-image: url(./images/mobile-background-img.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top 8rem right 0;
+  background-position: 100% 100%;
 }
 
 nav {
@@ -43,7 +39,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margin-top: 2rem;
+  padding-top: 2rem;
+
+  /* margin-top: 2rem; */
 }
 
 .logo {
@@ -77,8 +75,7 @@ li {
 }
 
 .bio {
-  margin: 20rem auto;
-  padding-bottom: 10px;
+  margin: 8rem auto 20rem;
 }
 
 .heading {
@@ -88,9 +85,20 @@ li {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 60px;
+  line-height: 52px;
   color: #172b4d;
   margin: 0 10px;
+  animation: color 4s ease-out;
+}
+
+@keyframes color {
+  from {
+    color: slateblue;
+  }
+
+  to {
+    color: brown;
+  }
 }
 
 .paragraph {
@@ -99,8 +107,8 @@ li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.9rem;
-  line-height: 2.8rem;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
   margin: 0 10px;
 }
@@ -121,7 +129,8 @@ li {
 .icons {
   display: flex;
   align-items: center;
-  margin-left: 1.4rem;
+  gap: 1rem;
+  margin-left: 10px;
 }
 
 .social-icons {
@@ -135,7 +144,7 @@ li {
 }
 
 .card-container {
-  display: grid;
+  display: flex;
   flex-direction: column;
   gap: 40px;
 }
@@ -445,8 +454,6 @@ textarea {
   border: 1px solid rgba(0, 0, 255, 0.7);
   width: 142px;
   color: #6070ff;
-
-  /* margin-left: 22px; */
   margin-top: 8px;
   border-radius: 8px;
   padding: 12px 1px;
@@ -458,4 +465,149 @@ textarea {
   background-color: #6070ff;
   color: white;
   border: 1px solid #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  #union {
+    display: none;
+  }
+
+  #list-items {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+  }
+
+  .landing-page {
+    background-color: #fff;
+    border-bottom-left-radius: 10rem;
+    margin-bottom: 6rem;
+
+    /* height: 100vh; */
+  }
+
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    background: url(./images/desktop-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+
+  .bio {
+    padding: 0;
+    width: 80%;
+  }
+
+  .paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .work-section {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .work-section > * {
+    flex: 1;
+  }
+
+  .card-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .see-btn {
+    margin-bottom: 4rem;
+  }
+
+  .cards {
+    width: 544px;
+    height: 448px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 29rem;
+  }
+
+  .about-myself > * {
+    flex: 1;
+  }
+
+  .about-myself {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .about-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .language {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .languages-content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    align-items: flex-start;
+  }
+
+  .about-me {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .para-1 {
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .input,
+  textarea {
+    width: 100%;
+  }
+
+  .form {
+    margin-top: -15rem;
+    align-items: center;
+  }
+
+  .form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading1 {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
 }

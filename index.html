@@ -13,19 +13,20 @@
 </head>
 <body>
 <!---Header section--->
-<section class="header-section">
+<section class="landing-page">  
   <header>
   <nav>
     <a class="logo" href="#">My logo</a>
     <ul id="list-items">
-      <li><a href="https://github.com/citec-47">Portfolio</a></li>
+      <li><a href="#">Portfolio</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-   <img src="./images/union-img.png" alt="union icon">
+   <img id="union" src="./images/union-img.png" alt="union icon">
   </nav> 
 </header> 
-  <section class="bio">
+<div class="header-section">
+  <div class="bio">
     <h1 class="heading">
       I’m Diana<br>
 Glad to see you!
@@ -51,15 +52,16 @@ Glad to see you!
       <a href="#"><img class="social-icons" src="./images/medium-img.png" alt="medium icon"></a>
       </li>
     </ul>
-    </section>
+    </div>
+  </div>
     <!-----===== Work section ======---->
 </section>
 <main> 
 <section class="card-container">
   <div class="work-section">
     <img class="cards" src="./images/snap-card-4.png" alt="avocode">
+    <div class="card-1">
     <h2 class="heading-2">Tonic</h2>
-
     <div class="specify">
     <p class="card-text-1">Canopy</p>
     <img class="dot" src="./images/dot.png" alt="dot img">
@@ -67,7 +69,7 @@ Glad to see you!
     <img class="dot"  src="./images/dot.png" alt="dot img">
     <p class="card-text">2015</p>
     </div>
-
+​
     <p>
       A daily selection of privately personalized reads; no accounts or sign-ups required.
     </p>
@@ -76,13 +78,14 @@ Glad to see you!
     <li class="lang" >css</li>
     <li class="lang">javascript</li>
     </ul>
-    <button class="btn">See project</button>
+    <button class="btn see-btn">See project</button>
   </div>
-
-    <div class="work-section">
+  </div>
+​
+    <div class="work-section reverse">
     <img  class="cards" src="./images/snap-card-3.png" alt="availability">
+    <div class="card-1">
     <h2 class="heading-2">Multi-Post<br>Stories</h2>
-
     <div class="specify">
     <p class="card-text-1">Canopy</p>
     <img  class="dot" src="./images/dot.png" alt="dot img">
@@ -90,7 +93,7 @@ Glad to see you!
     <img class="dot" src="./images/dot.png" alt="dot img">
     <p class="card-text">2015</p>
     </div>
-
+​
     <p>
       A daily selection of privately personalized reads; no accounts or sign-ups required.
     </p>
@@ -101,11 +104,12 @@ Glad to see you!
     </ul>
     <button class="btn">See project</button>
     </div>
-
+  </div>
+​
     <div class="work-section">
     <img class="cards" src="./images/Snap-card-5.png" alt="avocode">
+  <div class="card-1">
     <h2 class="heading-2">Tonic</h2>
-
     <div class="specify">
     <p class="card-text-1">Canopy</p>
     <img class="dot"  src="./images/dot.png" alt="dot img">
@@ -113,11 +117,11 @@ Glad to see you!
     <img class="dot"  src="./images/dot.png" alt="dot img">
     <p class="card-text">2015</p>
     </div>
-
+​
     <p>
       A daily selection of privately personalized reads; no accounts or sign-ups required.
     </p>
-
+​
     <ul class="languages">
     <li class="lang" >html</li>
     <li class="lang" >css</li>
@@ -125,11 +129,12 @@ Glad to see you!
     </ul>
     <button class="btn">See project</button>
   </div>
-
-    <div class="work-section">
+</div>
+​
+    <div class="work-section reverse">
     <img class="cards" src="./images/snap-card-2.png" alt="avocode">
+    <div class="card-1">
     <h2 class="heading-2">Multi-Post<br>Stories</h2>
-
     <div class="specify">
     <p class="card-text-1">Canopy</p>
     <img class="dot" src="./images/dot.png" alt="dot img">
@@ -137,7 +142,7 @@ Glad to see you!
     <img  class="dot" src="./images/dot.png" alt="dot img">
     <p class="card-text">2015</p>
     </div>
-
+​
     <p>
       A daily selection of privately personalized reads; no accounts or sign-ups required.
     </p>
@@ -148,10 +153,13 @@ Glad to see you!
     </ul>
     <button class="btn">See project</button>
   </div>
+</div>
 </section>
   <!--- ===== About section ======= --->
   <section class="about">
-    <h1 class="title">About Myself</h1>
+    <div class="about-myself">
+     <div class="about-left">
+    <h1 class="title">About<br>Myself</h1>
     <p class="paragraph1">
       I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
     </p>
@@ -178,6 +186,9 @@ Glad to see you!
     <button class="btn-resume">Get my Resume</button>
   </a>      
       </div>
+      </div>
+​
+      <div class="about-right">
       <div class="arrows" id="first-arrow">
        <div id="languages">
         <h2 id="heading-2">Languages</h2>
@@ -207,6 +218,8 @@ Glad to see you!
         <i class="fa fa-angle-right"></i>
       </div>
       <hr>
+      </div>
+    </div>
     </section>
 </main>
 <section class="form">
@@ -218,7 +231,7 @@ Glad to see you!
     <input type="text" value="Diana" name="name" maxlength="30"  placeholder="Name" class="input text" required/>
     <input type="email" value="dianab21@gmail.com" name="email" placeholder="Email" class="input text" required/>
     <textarea id="message" cols="30"  maxlength="500"   rows="9" placeholder="Write Your Message Here" required></textarea> 
-
+​
     <button type="submit" class="form-btn">Get In Touch</a></button>
   </form>
 </section>
