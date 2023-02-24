@@ -77,13 +77,13 @@ li {
   line-height: 52px;
   color: #172b4d;
   margin: 0 10px;
-  animation: color 2s ease-in-out;
+  animation: color 4s ease-out;
 }
 
-@keyframes color {
+ @keyframes color {
 
   from {
-    color: red;
+    color: slateblue;
   }
 
   to {
