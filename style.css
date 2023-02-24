@@ -77,15 +77,20 @@ li {
   line-height: 52px;
   color: #172b4d;
   margin: 0 10px;
-  transition-duration: transform all 4s cubic-bezier(.57,.64,1,.01);
+  animation: color 2s ease-in-out;
 }
 
-.heading:hover {
-  color: indigo;
-  transform: scaleX(1.1) translate(70px);
-  font-style: italic;
-  font-size: 35px;
+@keyframes color {
+
+  from {
+    color: red;
+  }
+
+  to {
+     color: purple;
+    }
 }
+
 .paragraph {
   max-width: 100vw;
   max-height: 60vh;
