@@ -589,10 +589,11 @@ textarea {
   }
 
   .form {
-    background-image: url(./images/desktop-contact-form.png), #6070FF;
-    background-size: cover;
+    background-image: url(./images/desktop-contact-form.png);
+    background-color: #6070ff;
+    background-size: contain;
+    border-top-left-radius: 20%;
     background-repeat: no-repeat;
-    background-position: top 8rem right 0;
     margin-top: -15rem;
     align-items: center;
   }
