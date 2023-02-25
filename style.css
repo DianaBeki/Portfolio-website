@@ -93,11 +93,11 @@ li {
 
 @keyframes color {
   from {
-    color: slateblue;
+    color:blue;
   }
 
   to {
-    color: brown;
+    color: red;
   }
 }
 
