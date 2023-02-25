@@ -40,8 +40,6 @@ nav {
   align-items: center;
   padding: 1rem;
   padding-top: 2rem;
-
-  /* margin-top: 2rem; */
 }
 
 .logo {
@@ -482,13 +480,13 @@ textarea {
     background-color: #fff;
     border-bottom-left-radius: 10rem;
     margin-bottom: 6rem;
-
-    /* height: 100vh; */
   }
 
   .header-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: url(./images/desktop-background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -496,7 +494,14 @@ textarea {
   }
 
   .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 8rem;
     padding: 0;
+    padding-top: 2rem;
     width: 80%;
   }
 
@@ -520,7 +525,7 @@ textarea {
   .card-1 {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .reverse {
@@ -595,6 +600,11 @@ textarea {
   }
 
   .form {
+    background-image: url(./images/desktop-contact-form.png);
+    background-color: #6070ff;
+    background-size: contain;
+    border-top-left-radius: 20%;
+    background-repeat: no-repeat;
     margin-top: -15rem;
     align-items: center;
   }

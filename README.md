@@ -50,8 +50,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-website] <a href="https://github.com/DianaBeki/Portfolio-website"></a>
 
-  Portfolio: add a contact form
-  - Add contact form in my index.html file and portfolio of my coding partners to contribute.
+  Portfolio: Desktop version
+  - Use media queries to make sure that your website displays correctly on desktop screens.
+
 
 ## 🛠 Built With <a name="built-with">Html and css</a>
 
@@ -78,9 +79,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[add form element]**
+- **[Write media queries of minimum width 768 for desktop version]**
 
-- **[add input element with a class attribute to style in css]**
+- **[add desktop background image to header class and style in css]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +133,6 @@ Install this project with:
 
 👤 **Diana Beki**
 👤 **Tshepo45**
-👤 **citec-47**
 
 - GitHub: [@githubhandle](https://github.com/DianaBeki)
 - Twitter: [@twitterhandle](https://twitter.com/home)
