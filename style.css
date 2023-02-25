@@ -86,6 +86,17 @@ li {
   line-height: 52px;
   color: #172b4d;
   margin: 0 10px;
+  animation: color 4s ease-out;
+}
+
+@keyframes color {
+  from {
+    color: slateblue;
+  }
+
+  to {
+    color: brown;
+  }
 }
 
 .paragraph {
