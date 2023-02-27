@@ -35,6 +35,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With Html and css](#-built-with-html-and-css)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -82,6 +83,16 @@ After you're finished please remove all the comments and instructions!
 - **[Write media queries of minimum width 768 for desktop version]**
 
 - **[add desktop background image to header class and style in css]**
+  
+- **[add live demo link]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://dianabeki.github.io/Portfolio-website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
