@@ -51,9 +51,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-website] <a href="https://github.com/DianaBeki/Portfolio-website"></a>
 
-  Portfolio: Desktop version
-  - Use media queries to make sure that your website displays correctly on desktop screens.
-
+  Portfolio: accessibility
+  - evaluate your website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
 
 ## 🛠 Built With <a name="built-with">Html and css</a>
 
@@ -93,6 +92,12 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://dianabeki.github.io/Portfolio-website/)
+
+- **[image text alternatives  (img alt="alt text" (issue found and solved)]**
+  
+- **[page title - no issue found]**
+- 
+- **[zoom text only - no text was overlapping]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
