@@ -86,7 +86,7 @@ li {
   line-height: 52px;
   color: #172b4d;
   margin: 0 10px;
-  animation: color 4s ease-out;
+  animation: color 5s linear 2s infinite alternate;
 }
 
 @keyframes color {
