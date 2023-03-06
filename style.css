@@ -30,11 +30,12 @@ align-items: flex-start;
 position: absolute;
 left: 0;
 top: 0;
-background-color: #6070FF;
+background-color: hsl(234, 100%, 69%);
 opacity: 0.94;
 width: 100%;
 height: 100vh;
-backdrop-filter: blur(50px);
+transform: translateX(120vw);
+/* filter: blur(50px); */
 }
 
 .mobile-nav-menu > ul {
