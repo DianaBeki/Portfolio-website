@@ -37,12 +37,27 @@ body {
   backdrop-filter: blur(10px);
 }
 
+ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
 .mobile-nav-menu > ul {
   flex-direction: column;
   width: 100%;
   gap: 1rem;
 }
 
+li {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  text-decoration: none;
+}
 
 .mobile-nav-menu > ul > li {
   color: white;
@@ -86,24 +101,8 @@ nav {
   text-decoration: none;
 }
 
-ul {
-  display: flex;
-  gap: 3rem;
-  list-style: none;
-}
-
 #list-items {
   display: none;
-}
-
-li {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-  text-decoration: none;
 }
 
 .bio {
@@ -486,9 +485,9 @@ textarea {
   border: 1px solid rgba(0, 0, 255, 0.7);
   width: 142px;
   color: #6070ff;
-  margin-top: -10px; 
+  margin-top: -10px;
   border-radius: 8px;
-  padding: 12px 1px; 
+  padding: 12px 1px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
