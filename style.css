@@ -72,6 +72,186 @@ li {
   align-self: flex-end;
 }
 
+/*
+* MODAL
+*/
+
+.modal-box {
+  display: none;
+  flex-direction: column;
+  padding: 1rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  gap: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #fff;
+  z-index: 13;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  z-index: 15;
+}
+
+.modal-project-title-and-close {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-project-title {
+  font-size: 32px;
+}
+
+.close-modal-btn {
+  height: 70%;
+}
+
+.modal-project-details {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.modal-project-details li img {
+  height: 50%;
+}
+
+.modal-project-details li:first-child {
+  color: #344563;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.modal-project-details li {
+  color: #7a869a;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.p-and-btns-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-primary-text {
+  font-size: 15px;
+  display: block;
+  min-width: 100%;
+  margin: 0 auto;
+  color: #344563;
+  font-weight: 400;
+}
+
+.modal-project-tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.modal-project-tag {
+  padding: 0.5rem 1rem;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.modal-btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.modal-btn {
+  flex: 1;
+  width: 100%;
+  padding: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal-btn-img {
+  height: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-box {
+    overflow: hidden;
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: rgba(212, 212, 233, 0.861);
+    opacity: 0.94;
+    backdrop-filter: blur(5px);
+  }
+
+  .modal-content {
+    width: 90%;
+    background: #fff;
+    height: 90%;
+    padding: 0.5rem;
+    opacity: 1;
+    padding: 1rem;
+    border-radius: 16px;
+    overflow-y: auto;
+  }
+
+  .modal-project-snapshot {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+  }
+
+  .p-and-btns-box {
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* .p-and-btns-box > * {
+    flex: 1;
+  } */
+
+  .modal-primary-text {
+    flex: 2;
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-skills-and-btns {
+    flex: 1;
+    width: 100%;
+  }
+
+  .modal-btn {
+    height: 2rem;
+  }
+
+  .modal-btn-img {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modal-content {
+    width: 70%;
+  }
+}
+
+/*
+* END MODAL
+*/
+
 .header-section {
   display: flex;
   flex-direction: column;
