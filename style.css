@@ -59,12 +59,6 @@ li {
   text-decoration: none;
 }
 
-.modal-project-details li {
-  color: #7a869a;
-  font-size: 13px;
-  font-weight: 500;
-}
-
 .mobile-nav-menu > ul > li {
   color: white;
   font-style: normal;
@@ -128,7 +122,7 @@ li {
 }
 
 .close-modal-btn {
-  height: 70%;
+  height: 1rem;
 }
 
 .modal-project-details {
@@ -145,6 +139,12 @@ li {
   color: #344563;
   font-size: 13px;
   font-weight: 600;
+}
+
+.modal-project-details li {
+  color: #7a869a;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .p-and-btns-box {
@@ -200,6 +200,7 @@ li {
     overflow: hidden;
     width: 100%;
     max-height: 100vh;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     background: rgba(212, 212, 233, 0.861);
@@ -211,6 +212,7 @@ li {
     width: 90%;
     background: #fff;
     height: 90%;
+    padding: 0.5rem;
     opacity: 1;
     padding: 1rem;
     border-radius: 16px;
