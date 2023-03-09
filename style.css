@@ -695,7 +695,7 @@ textarea {
   display: none;
 }
 
-.error-field  {
+.error-field {
   outline: red;
   box-shadow: 0 0 3px 1px red;
 }
