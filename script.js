@@ -175,3 +175,33 @@ function closeModal() {
   document.querySelector('.modal-box').style.display = 'none';
 }
 closeModal();
+
+// form validation
+
+const form = document.querySelector('form');
+const error = document.querySelector('.error');
+const { email } = form.elements;
+
+function showError(isError) {
+  if (isError) {
+    error.innerHTML = 'Email must be in Lower Case';
+    error.style.display = 'block';
+    email.classList.add('error-field');
+  } else {
+    error.innerHTML = '';
+    error.style.display = 'none';
+    email.classList.remove('error-field');
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const isLowerCase = email.value === email.value.toLowerCase();
+
+  if (isLowerCase) {
+    form.submit();
+  } else {
+    showError(true);
+  }
+});
