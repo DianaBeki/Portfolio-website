@@ -210,7 +210,7 @@ form.addEventListener('submit', (e) => {
 const formData = JSON.parse(localStorage.getItem('formData')) || {
   name: '',
   email: '',
-  message: ''
+  message: '',
 };
 
 const save = (key, value) => {
@@ -218,20 +218,20 @@ const save = (key, value) => {
   localStorage.setItem('formData', JSON.stringify(formData));
 };
 
-const nameField = form.elements['name'];
+const nameField = form.elements.name;
 nameField.value = formData.name;
 nameField.addEventListener('keyup', (e) => {
   save('name', e.target.value);
-})
+});
 
-const emailField = form.elements['email'];
+const emailField = form.elements.email;
 emailField.value = formData.email;
 emailField.addEventListener('keyup', (e) => {
   save('email', e.target.value);
-})
+});
 
-const messageField = form.elements['message'];
+const messageField = form.elements.message;
 messageField.value = formData.message;
 messageField.addEventListener('keyup', (e) => {
   save('message', e.target.value);
-})
+});
