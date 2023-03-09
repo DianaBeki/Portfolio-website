@@ -205,3 +205,21 @@ form.addEventListener('submit', (e) => {
     showError(true);
   }
 });
+
+// local storage
+const formData = JSON.parse(localStorage.getItem('formData')) || {
+  name: '',
+  email: '',
+  message: ''
+};
+
+const save = (key, value) => {
+  formData[key] = value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+};
+
+const nameField = form.elements['name'];
+nameField.value = formData.name;
+nameField.addEventListener('keyup', (e) => {
+  save('name', e.target.value);
+})
