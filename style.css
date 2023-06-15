@@ -43,6 +43,19 @@ ul {
   list-style: none;
 }
 
+/* Add hover effect to portfolio, contact, and about me sections */
+#list-items li a:hover,
+.icons li a:hover,
+.about-left:hover,
+.about-right:hover {
+  color: blue;
+}
+
+/* Add hover effect to social icons */
+.icons li a:hover img {
+  filter: brightness(70%);
+}
+
 .mobile-nav-menu > ul {
   flex-direction: column;
   width: 100%;
