@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Martian+Mono:wght@200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@300;600&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,600;1,900&family=Poppins:ital,wght@0,500;0,800;1,100;1,300;1,400;1,500;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,500;0,600;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Martian+Mono:wght@200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@300;600&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,600;1,900&family=Poppins:ital,wght@0,500;0,800;1,100;1,300;1,400;1,500;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,500;0,600;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="mobile-nav-menu">
     <ul>
       <li class="close-btn"><img src="./images/icon-btn.png" alt="icon button" onclick="closeMenu()"></li>
-      <li><a onclick="closeMenu()" href="#portfolio-section">Portfolio</a></li>
+      <li class="close-btn"><a onclick="closeMenu()" href="#portfolio-section">Portfolio</a></li>
       <li><a onclick="closeMenu()" href="#about-section">About</a></li>
       <li><a onclick="closeMenu()" href="#contact-section">Contact</a></li>
     </ul>
@@ -32,9 +32,9 @@
   <nav>
     <a class="logo" href="#">My logo</a>
     <ul id="list-items">
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#portfolio-section">Portfolio</a></li>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#contact-section">Contact</a></li>
     </ul>
    <img id="union" src="./images/union-img.png" alt="menu">
   </nav> 
@@ -46,7 +46,7 @@
 Glad to see you!
     </h1>
     <p class="paragraph">
-      I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+      I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
     </p>
     <h3 class="heading-3">Let's connect</h3>
     <ul class="icons">
@@ -57,7 +57,7 @@ Glad to see you!
         <a href="#"><img class="social-icons" src="./images/linkedin-img.png" alt="Linkedin"></a>
       </li>
      <li>
-       <a href="#"><img class="social-icons" src="./images/fingure-img.png" alt="fingure"></a>
+       <a href="#"><img class="social-icons" src="./images/fingure-img.png" alt="finger"></a>
       </li>
       <li>
       <a href="#"><img class="social-icons" src="./images/tweet-img.png" alt="twitter"></a>
@@ -73,7 +73,7 @@ Glad to see you!
 <!-----===== Work section ======---->
 <main> 
 <section id="portfolio-section" class="card-container">
-  <!-- geneate content from javascript -->
+  <!-- generate content from javascript -->
 </section>
 
   <!--- ===== About section ======= --->
@@ -82,7 +82,7 @@ Glad to see you!
      <div class="about-left">
     <h1 class="title">About<br>Myself</h1>
     <p class="paragraph1">
-      I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+      I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
     </p>
     <h3 class="heading-3">Let's connect</h3>
     <ul class="icons">
@@ -93,7 +93,7 @@ Glad to see you!
         <a href="#"><img class="social-icons" src="./images/linkedin-img.png" alt="Linkedin"></a>
       </li>
      <li>
-       <a href="#"><img class="social-icons" src="./images/fingure-img.png" alt="fingure"></a>
+       <a href="#"><img class="social-icons" src="./images/fingure-img.png" alt="finger"></a>
       </li>
       <li>
       <a href="#"><img class="social-icons" src="./images/tweet-img.png" alt="twitter"></a>
@@ -130,7 +130,7 @@ Glad to see you!
           </li>
         </ul>
       <div class="arrows" id="arrow-top">
-        <h2 id="heading-2">FrameWorks</h2>
+        <h2 id="heading-2">Frameworks</h2>
         <i class="fa fa-angle-right"></i>
       </div>
       <hr>
@@ -145,18 +145,17 @@ Glad to see you!
 </main>
 <section id="contact-section" class="form">
   <div class="about-me">
-    <h1 class="heading1"  >Contact me</h1>
-    <p class="para-1" >If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</P>
+    <h1 class="heading1">Contact me</h1>
+    <p class="para-1">If you have an application you are interested in developing, a feature that you need built, or a project that needs coding, I'd love to help with it</P>
   </div>
   <form action="https://formspree.io/f/xeqwglky" method="POST">
-    <input type="text" name="name" maxlength="30"  placeholder="Diana" class="input text" required/>
+    <input type="text" name="name" maxlength="30" placeholder="Diana" class="input text" required/>
     <input type="email" name="email" placeholder="dianab21@gmail.com" class="input text" required/>
     <small class="error">Email should be in lowercase</small>
-    <textarea id="message" cols="30"  maxlength="500"   rows="9" placeholder="Write Your Message Here" required></textarea> 
-    <button type="submit" class="form-btn">Get In Touch</a></button>
+    <textarea id="message" cols="30" maxlength="500" rows="9" placeholder="Write Your Message Here" required></textarea> 
+    <button type="submit" class="form-btn">Get In Touch</button>
   </form>
 </section>
-
-  <script src="./script.js"></script>
+<script defer src="./script.js"></script>
 </body>
-</html> 
+</html>
