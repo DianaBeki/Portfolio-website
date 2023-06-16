@@ -13,12 +13,12 @@ union.addEventListener('click', () => {
 
 const projects = [
   {
-    name: 'Tonic',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: './images/snap-card-4.png',
+    name: 'Fashion Week',
+    description: "A fashion week event is a honored gathering showcasing the latest fashion collections, trends, and industry innovations",
+    featuredImage: './images/fashion(1).png',
     technologies: ['html', 'css', 'javascript'],
-    liveVersion: 'https://dianabeki.github.io/Portfolio-website/',
-    sourceLink: 'https://github.com/DianaBeki/Portfolio-website',
+    liveVersion: 'https://dianabeki.github.io/Fashion-week',
+    sourceLink: 'https://github.com/DianaBeki/Fashion-week',
   },
   {
     name: 'Multi-Post Stories',
@@ -73,7 +73,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const canopy = document.createElement('p');
   canopy.classList.add('card-text-1');
-  canopy.innerHTML = 'Canopy';
+  canopy.innerHTML = 'Babel';
 
   const dot = document.createElement('img');
   dot.src = './images/dot.png';
@@ -81,21 +81,21 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const backEndDev = document.createElement('p');
   backEndDev.classList.add('card-text');
-  backEndDev.innerHTML = 'Back End Dev';
+  backEndDev.innerHTML = 'Front End Dev';
 
   const dot2 = document.createElement('img');
   dot2.src = './images/dot.png';
   dot2.alt = 'dot';
 
-  const t2015 = document.createElement('p');
-  t2015.classList.add('card-text');
-  t2015.innerHTML = '2015';
+  const t2023 = document.createElement('p');
+  t2023.classList.add('card-text');
+  t2023.innerHTML = '2023';
 
   specify.appendChild(canopy);
   specify.appendChild(dot);
   specify.appendChild(backEndDev);
   specify.appendChild(dot2);
-  specify.appendChild(t2015);
+  specify.appendChild(t2023);
 
   card1.appendChild(specify);
   card1.appendChild(heading2);
@@ -136,7 +136,7 @@ for (let i = 0; i < projects.length; i += 1) {
       <li><img src="images/dot.png" alt="dot icon"></li>
       <li>Back End Dev</li>
       <li><img src="images/dot.png" alt="dot icon"></li>
-      <li>2015</li>
+      <li>2023</li>
     </ul>
     <img src=${projects[i].featuredImage} alt="project snapshot" class="modal-project-snapshot">
     
