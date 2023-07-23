@@ -21,8 +21,8 @@ const projects = [
     sourceLink: 'https://github.com/DianaBeki/Fashion-week',
   },
   {
-    name: 'math-magicians',
-    description: "Math-magicians is a single Page Calculator application developed using React. Calculator does simple arithmetic operations involving Addition, Subtraction, Division and Multiplication . The APP also fetches data from the external API and displays quotes on the page. Additionally the App contains a nav bar for Home, Calculator and quotes pages",
+    name: 'Math Magicians',
+    description: "Math Magicians is a single Page Calculator application developed using React. Calculator does simple arithmetic operations involving Addition, Subtraction, Division and Multiplication . The APP also fetches data from the external API and displays quotes on the page. Additionally the App contains a nav bar for Home, Calculator and quotes pages",
     featuredImage: './images/mathmagician.png',
     technologies: ['html5', 'css3', 'reactjs', 'jest', 'sass'],
     liveVersion: 'https://mathmagicians-4bmj.onrender.com/',
