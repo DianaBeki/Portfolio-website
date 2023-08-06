@@ -37,12 +37,20 @@ const projects = [
     sourceLink: 'https://github.com/DianaBeki/To-Do-list',
   },
   {
-    name: 'Multi-Post Stories',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: './images/snap-card-2.png',
-    technologies: ['html', 'css', 'javascript'],
-    liveVersion: 'https://dianabeki.github.io/Portfolio-website/',
-    sourceLink: 'https://github.com/DianaBeki/Portfolio-website',
+    name: 'Space Travellers Hub',
+    description: "A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. It is built with real live data from the SpaceX API.",
+    featuredImage: './images/spacetravel.png',
+    technologies: ['reactjs', 'css', 'webpack', 'redux', 'jest', 'ES6 modules'],
+    liveVersion: 'https://space-travelers-three.vercel.app/',
+    sourceLink: 'https://github.com/DianaBeki/space-travelers-hub',
+  },
+  {
+    name: 'theRestaraunt',
+    description: "This is a website that displays the menu items of a resturant that entails pictures, description, with a like and comment button. The website allows users to like multiple items and also leave a comment on items",
+    featuredImage: './images/restaraunt.png',
+    technologies: ['javascript', 'css3', 'webpack', 'html5', 'jest'],
+    liveVersion: 'https://space-travelers-three.vercel.app/',
+    sourceLink: 'https://github.com/DianaBeki/theResturant',
   },
 ];
 
