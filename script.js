@@ -24,23 +24,23 @@ const projects = [
     name: 'Math Magicians',
     description: "Math Magicians is a single Page Calculator application developed using React. Calculator does simple arithmetic operations involving Addition, Subtraction, Division and Multiplication . The APP also fetches data from the external API and displays quotes on the page. Additionally the App contains a nav bar for Home, Calculator and quotes pages",
     featuredImage: './images/mathmagician.png',
-    technologies: ['html5', 'css3', 'reactjs', 'jest', 'sass'],
+    technologies: ['html5', 'css', 'javascript'],
     liveVersion: 'https://mathmagicians-4bmj.onrender.com/',
     sourceLink: 'https://github.com/DianaBeki/math-magicians',
   },
   {
     name: 'ToDoList',
     description: "A simple To-Do List built to keep track of tasks that need to be done",
-    featuredImage: './images/todo.png',
-    technologies: ['html', 'css', 'javascript','webpack'],
+    featuredImage: './images/todo.png'
+    technologies: ['html', 'css', 'javascript']
     liveVersion: 'https://dianabeki.github.io/To-Do-list/dist/',
     sourceLink: 'https://github.com/DianaBeki/To-Do-list',
   },
-  {
+  
     name: 'Space Travellers Hub',
     description: "A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. It is built with real live data from the SpaceX API.",
     featuredImage: './images/spacetravel.png',
-    technologies: ['reactjs', 'css', 'webpack', 'redux', 'jest', 'ES6 modules'],
+    technologies: ['html','css','javascript'],
     liveVersion: 'https://space-travelers-three.vercel.app/',
     sourceLink: 'https://github.com/DianaBeki/space-travelers-hub',
   },
@@ -48,7 +48,7 @@ const projects = [
     name: 'theRestaraunt',
     description: "This is a website that displays the menu items of a resturant that entails pictures, description, with a like and comment button. The website allows users to like multiple items and also leave a comment on items",
     featuredImage: './images/restaraunt.png',
-    technologies: ['javascript', 'css3', 'webpack', 'html5', 'jest'],
+    technologies: ['html','css','javascript'],
     liveVersion: 'https://space-travelers-three.vercel.app/',
     sourceLink: 'https://github.com/DianaBeki/theResturant',
   },
