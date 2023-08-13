@@ -52,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Portfolio-website] <a href="https://github.com/DianaBeki/Portfolio-website"></a>
 
   Portfolio: accessibility
-  - evaluate your website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
+  - My portfolio website that showcase my skills and experience in web development and contributed projects!Built with html, css and javascript.
 
 ## 🛠 Built With <a name="built-with">Html and css</a>
 
@@ -78,12 +78,23 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-
 - **[Write media queries of minimum width 768 for desktop version]**
-
 - **[add desktop background image to header class and style in css]**
-  
 - **[add live demo link]**
+- **Linters SetUp**
+- **Follow HTML and CSS best practice**
+- **Display Text**
+- **Display Cards**
+- **Display Text**
+- **Hoover Buttons**
+- **Desktop Version**
+- **Include Animations**
+- **Deployed with GithubPages**
+- **Mobile Nav**
+- **Detail modal**
+- **Email validation**
+- **store form data in local storage**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +102,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://dianabeki.github.io/Portfolio-website/)
+- [Live Demo Link]()
 
 - **[image text alternatives  (img alt="alt text" (issue found and solved)]**
   
