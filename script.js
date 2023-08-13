@@ -31,12 +31,12 @@ const projects = [
   {
     name: 'ToDoList',
     description: "A simple To-Do List built to keep track of tasks that need to be done",
-    featuredImage: './images/todo.png'
-    technologies: ['html', 'css', 'javascript']
+    featuredImage: './images/todo.png',
+    technologies: ['html', 'css', 'javascript'],
     liveVersion: 'https://dianabeki.github.io/To-Do-list/dist/',
     sourceLink: 'https://github.com/DianaBeki/To-Do-list',
   },
-  
+  {
     name: 'Space Travellers Hub',
     description: "A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. It is built with real live data from the SpaceX API.",
     featuredImage: './images/spacetravel.png',
@@ -81,7 +81,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const canopy = document.createElement('p');
   canopy.classList.add('card-text-1');
-  canopy.innerHTML = 'Babel';
+  canopy.innerHTML = 'Canopy';
 
   const dot = document.createElement('img');
   dot.src = './images/dot.png';
