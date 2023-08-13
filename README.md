@@ -79,7 +79,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **Write media queries of minimum width 768 for desktop version**
-- **add desktop background image to header class and style in css**
+- **Add a desktop background image to the header class and style in CSS**
 - **add live demo link**
 - **Linters SetUp**
 - **Follow HTML and CSS best practices**
@@ -159,11 +159,18 @@ Install this project with:
 > Mention all of the collaborators of this project.
 
 👤 **Diana Beki**
-👤 **Tshepo45**
 
 - GitHub: [@githubhandle](https://github.com/DianaBeki)
 - Twitter: [@twitterhandle](https://twitter.com/home)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
+
+## 👥 Author1 <a name="Tshepo45"></a>
+
+  👤 **Tshepo45**
+- GitHub: [@githubhandle]()
+- Twitter: [@twitterhandle]()
+- LinkedIn: [LinkedIn]()
+  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
