@@ -78,11 +78,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Write media queries of minimum width 768 for desktop version]**
-- **[add desktop background image to header class and style in css]**
-- **[add live demo link]**
+- **Write media queries of minimum width 768 for desktop version**
+- **add desktop background image to header class and style in css**
+- **add live demo link**
 - **Linters SetUp**
-- **Follow HTML and CSS best practice**
+- **Follow HTML and CSS best practices**
 - **Display Text**
 - **Display Cards**
 - **Display Text**
@@ -102,7 +102,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://dianabeki.github.io/Portfolio-website/)
 
 - **[image text alternatives  (img alt="alt text" (issue found and solved)]**
   
